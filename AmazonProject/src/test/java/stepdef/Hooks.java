@@ -15,7 +15,7 @@ public class Hooks {
 	
 	@After
 	public void AfterScenario() throws IOException {
-		//controller.basePage.WebDriverManager().quit();
+		controller.basePage.WebDriverManager().quit();
 	}
 
 }

@@ -32,14 +32,14 @@ public class Login {
 		loginPage.clickSignInBtn();
 	}
 
-	@Then("user enters username")
-	public void User_enters_username() {
-		loginPage.enterUserName();
+	@Then("user enters username as {string}")
+	public void User_enters_username(String username) {
+		loginPage.enterUserName(username);
 	}
 
-	@Then("user enters password")
-	public void User_enters_password() {
-		loginPage.enterPassword();
+	@Then("user enters password as {string}")
+	public void User_enters_password(String password) {
+		loginPage.enterPassword(password);
 	}
 
 	@Then("user click on login and confirms Login")

@@ -5,8 +5,8 @@ Feature: Add product in cart
 	
 	Given user validate amazon homepage is loaded
 	Then user click on signIn button
-	Then user enters username
-	Then user enters password
+	Then user enters username as "shreeyashr@gmail.com"
+	Then user enters password as "Shweta@123"
 	Then user click on login and confirms Login
 	Then user searches for product "monitor"
 	And user add the product number 1 to cart
@@ -20,8 +20,8 @@ Feature: Add product in cart
 	
 	Given user validate amazon homepage is loaded
 	Then user click on signIn button
-	Then user enters username
-	Then user enters password
+	Then user enters username as "shreeyashr@gmail.com"
+	Then user enters password as "Shweta@123"
 	Then user click on login and confirms Login
 	Then user searches for product "laptop"
 	And user add the product number 2 to cart
@@ -34,8 +34,8 @@ Feature: Add product in cart
 	
 	Given user validate amazon homepage is loaded
 	Then user click on signIn button
-	Then user enters username
-	Then user enters password
+	Then user enters username as "shreeyashr@gmail.com"
+	Then user enters password as "Shweta@123" 
 	Then user click on login and confirms Login
 	Then user searches for product "headphones"
 	And user add the product number 1 to cart

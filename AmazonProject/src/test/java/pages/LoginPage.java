@@ -32,13 +32,13 @@ public class LoginPage {
 		driver.findElement(signInBtn).click();
 	}
 	
-	public void enterUserName() {
-		driver.findElement(userName).sendKeys("shreeyashr@gmail.com");
+	public void enterUserName(String username) {
+		driver.findElement(userName).sendKeys(username);
 		driver.findElement(continueBtn).click();
 	}
 	
-	public void enterPassword() {
-		driver.findElement(password).sendKeys("Shweta@123");
+	public void enterPassword(String typePassword) {
+		driver.findElement(password).sendKeys(typePassword);
 	}
 	
 	public void clickUserSignIn() {
